@@ -16,6 +16,7 @@ http {
   gzip_proxied any;
 
   server_tokens off;
+  max_ranges 0;
 
   access_log  logs/access.log;
 <% if debug %>
